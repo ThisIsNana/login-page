@@ -1,0 +1,39 @@
+body {
+  background-color: #ffde97;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body h4 {
+  margin-top: 25px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body h5 {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 750px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+input {
+  margin: 10px 0;
+}
+
+.form-check {
+  margin: 10px 10px;
+}
+
+.login-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-btn P {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=style.css.map */
