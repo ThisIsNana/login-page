@@ -1,8 +1,24 @@
+$primary-color-light: #ffde97;
+$primary-color-dark: #bb8000;
+$primary-color: #FFC107;
+
 body {
+    width: 100vw;
+    height: 100vh;
     background-color: #ffde97;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    // LOGIN、SIGNUP展開後的標題顏色
+    .accordion-button:not(.collapsed) {
+        background-color: $primary-color;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    //內容顏色
+    // .accordion-body {}
 
     h4 {
         margin-top: 25px;
@@ -15,17 +31,26 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
+    .container {
+        width: 700px;
+        background-color: #ffffff;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+
+
+        label {
+            margin: 0 0;
+        }
+    }
+
 }
 
 
-.container {
-    width: 750px;
-    height: 100%;
-    background-color: #ffffff;
-}
 
 input {
     margin: 10px 0;
+    border-radius: 50px;
 }
 
 .form-check {

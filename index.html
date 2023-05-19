@@ -24,26 +24,30 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container ">
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed btn-outline-warning" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
-                        aria-controls="flush-collapseOne">
-                        LOGIN
+                    <button class="accordion-button collapsed btn-warning" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <i class="fa-solid fa-right-to-bracket fa-xl" style="color: #51441f;"></i>
+                        <h2>LOGIN</h2>
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-
-                        <h4>EMAIL</h4>
-                        <input type="text" class="form-control" id="basic-url" placeholder="example@mail.com"
+                    <div class="accordion-body ">
+                        <label for="email">
+                            <h4>EMAIL</h4>
+                        </label>
+                        <input type="text" class="form-control" id="email" placeholder="example@mail.com"
                             aria-describedby="basic-addon3">
 
-                        <h4>PASSWORD/FULLNAME</h4>
-                        <input type="text" class="form-control" id="basic-url" placeholder="Nana Weng"
+                        <label for="pwd">
+                            <h4>PASSWORD/FULLNAME</h4>
+                        </label>
+
+                        <input type="password" class="form-control" id="pwd" placeholder="Nana Weng"
                             aria-describedby="basic-addon3">
 
                         <!-- 勾選 -->
@@ -71,7 +75,8 @@
                     <button class="accordion-button collapsed btn-outline-warning" type="button"
                         data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
                         aria-controls="flush-collapseTwo">
-                        SIGN UP
+                        <i class="fa-solid fa-user-plus fa-xl" style="color: #51461f;"></i>
+                        <h2>SIGN UP</h2>
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
@@ -88,12 +93,12 @@
 
                         <h4>PASSWORD</h4>
                         <h5>(*some rules*)</h5>
-                        <input type="text" class="form-control" id="basic-url" placeholder="★★★★★★★"
+                        <input type="password" class="form-control" id="basic-url" placeholder="★★★★★★★"
                             aria-describedby="basic-addon3">
 
                         <h4>COMFIRN PASSWORD</h4>
                         <h5>(*some rules*)</h5>
-                        <input type="text" class="form-control" id="basic-url" placeholder="★★★★★★★"
+                        <input type="password" class="form-control" id="basic-url" placeholder="★★★★★★★"
                             aria-describedby="basic-addon3">
 
                         <!-- 勾選 -->
