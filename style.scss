@@ -6,11 +6,14 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #ffde97;
+    // background-image: url(./img/Me-bg.png);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    // LOGIN、SIGNUP展開後的標題顏色
     .accordion-body {
         padding: 5px 10px 5px 10px;
     }
@@ -20,6 +23,7 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
+    // LOGIN、SIGNUP展開後的標題顏色
     .accordion-button:not(.collapsed) {
         background-color: $primary-color;
         color: #ffffff;
