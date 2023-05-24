@@ -6,18 +6,28 @@ body {
   justify-content: center;
   align-items: center;
 }
+body .accordion-body {
+  padding: 5px 10px 5px 10px;
+}
+body .accordion-button {
+  padding: 10px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body .accordion-button:not(.collapsed) {
   background-color: #FFC107;
   color: #ffffff;
-  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body h2 {
+  font-size: 20px;
 }
 body h4 {
   margin-top: 25px;
-  font-size: 18px;
+  font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body h5 {
-  font-size: 13px;
+  font-size: 11px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body .container {
@@ -33,7 +43,6 @@ body .container label {
 
 input {
   margin: 10px 0;
-  border-radius: 50px;
 }
 
 .form-check {
@@ -46,6 +55,6 @@ input {
   align-items: center;
 }
 .login-btn P {
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
